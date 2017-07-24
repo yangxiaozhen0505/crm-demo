@@ -1,0 +1,56 @@
+html,body,ul,li,a,tr,th,tbody,label,input{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style:none;
+}
+.container{
+    width: 600px;
+    margin:50px auto;
+}
+.container .table{
+    width: 100%;
+    text-align:center;
+    border-collapse: collapse;
+}
+.container .table th{
+    background:antiquewhite;
+    padding:8px;
+}
+.container .table-bordered{
+    border:3px solid antiquewhite;
+}
+.container .table td{
+    padding:5px;
+}
+a.btn{
+    margin-bottom:20px;
+}
+a{
+    text-decoration:underline;
+    color:coral;
+    cursor: pointer;
+    display:block;
+}
+.btn{
+    font-size:22px;
+    color:lightcoral;
+}
+.form{
+    border:3px solid antiquewhite;
+    padding:30px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+.form-group label{
+    width: 60px;
+    font-size:20px;
+    display:inline-block;
+    line-height:30px;
+}
+.form-group input{
+    width: 300px;
+    line-height: 30px;
+}
